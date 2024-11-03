@@ -15003,16 +15003,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier-plugin-tailwindcss@npm:^0.5.12":
-  version: 0.5.14
-  resolution: "prettier-plugin-tailwindcss@npm:0.5.14"
+"prettier-plugin-tailwindcss@npm:^0.4.1":
+  version: 0.4.1
+  resolution: "prettier-plugin-tailwindcss@npm:0.4.1"
   peerDependencies:
     "@ianvs/prettier-plugin-sort-imports": "*"
     "@prettier/plugin-pug": "*"
     "@shopify/prettier-plugin-liquid": "*"
+    "@shufo/prettier-plugin-blade": "*"
     "@trivago/prettier-plugin-sort-imports": "*"
-    "@zackad/prettier-plugin-twig-melody": "*"
-    prettier: ^3.0
+    prettier: ^2.2 || ^3.0
     prettier-plugin-astro: "*"
     prettier-plugin-css-order: "*"
     prettier-plugin-import-sort: "*"
@@ -15020,9 +15020,9 @@ __metadata:
     prettier-plugin-marko: "*"
     prettier-plugin-organize-attributes: "*"
     prettier-plugin-organize-imports: "*"
-    prettier-plugin-sort-imports: "*"
     prettier-plugin-style-order: "*"
     prettier-plugin-svelte: "*"
+    prettier-plugin-twig-melody: "*"
   peerDependenciesMeta:
     "@ianvs/prettier-plugin-sort-imports":
       optional: true
@@ -15030,9 +15030,9 @@ __metadata:
       optional: true
     "@shopify/prettier-plugin-liquid":
       optional: true
-    "@trivago/prettier-plugin-sort-imports":
+    "@shufo/prettier-plugin-blade":
       optional: true
-    "@zackad/prettier-plugin-twig-melody":
+    "@trivago/prettier-plugin-sort-imports":
       optional: true
     prettier-plugin-astro:
       optional: true
@@ -15048,13 +15048,13 @@ __metadata:
       optional: true
     prettier-plugin-organize-imports:
       optional: true
-    prettier-plugin-sort-imports:
-      optional: true
     prettier-plugin-style-order:
       optional: true
     prettier-plugin-svelte:
       optional: true
-  checksum: 9857873cb8cb0d9b7b895806e7f6265617a08805691125d282767dffb1cb3d2c4c662f2b9168ef391edc40dff1b81beb99eee488f96544e01b8924db694f2299
+    prettier-plugin-twig-melody:
+      optional: true
+  checksum: da9dc4c8c80b5510d51e671de61bc230e2b076bd4c14ddd3e8bd4fa5395373800d10473718bbf22e1cabe09167e8d2eb1bedaa06587ee905d6e6106003b69d11
   languageName: node
   linkType: hard
 
@@ -16131,7 +16131,7 @@ __metadata:
     "@redwoodjs/auth-supabase-setup": 8.4.0
     "@redwoodjs/core": 8.4.0
     "@redwoodjs/project-config": 8.4.0
-    prettier-plugin-tailwindcss: ^0.5.12
+    prettier-plugin-tailwindcss: ^0.4.1
   languageName: unknown
   linkType: soft
 
