@@ -3,5 +3,11 @@
     "env": {
       "ENABLE_EXPERIMENTAL_COREPACK": "1"
     }
+  },
+  "functions": {
+    "api/src/functions/graphql.*": {
+      "maxDuration": 120,
+      "runtime": "@vercel/redwood@2.1.8"
+    }
   }
 }

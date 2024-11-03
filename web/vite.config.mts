@@ -1,6 +1,6 @@
 import dns from 'dns'
 
-import type { UserConfig } from 'vite'
+// import { UserConfig } from 'vite'
 import { defineConfig } from 'vite'
 import tsconfigPaths from 'vite-tsconfig-paths'
 
@@ -11,7 +11,7 @@ import redwood from '@redwoodjs/vite'
 // See: https://vitejs.dev/config/server-options.html#server-host.
 dns.setDefaultResultOrder('verbatim')
 
-const viteConfig: UserConfig = {
+const viteConfig = {
   plugins: [redwood(), tsconfigPaths()],
 }
 
